@@ -1,0 +1,106 @@
+@font-face {
+  font-family: netflix-sans-regular;
+  src: url("../fonts/Netflixsans_W_Rg.woff2");
+}
+
+body{
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.navbar{
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2vw;
+  padding-right: 4vw;
+  padding-top: 1%;
+}
+.img-logo{
+  width: 14%;
+  color: #e50914;
+}
+
+.btn-sign-in{
+  background-color: #e50914;
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: fit-content;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-content{
+width: 100%;
+height: 90vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size:netflix-sans-regular ;
+}
+.root{
+  background-image: radial-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url(net\ bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.main-title{
+  font-size: 3.2em;
+  align-content: center;
+  line-height: 1.1;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main-title-container {
+  color: white;
+  text-align: center;
+  width: 50%;
+
+}
+.main-subtitle{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+.main-call {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+
+}
+.email{
+  width: 55%;
+  height: fit-content;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.email-input{
+  outline: none;
+  border: none;
+  padding: 20px 10px;
+  font-size: 1em;
+
+}
+.btn-started{
+  cursor: pointer;
+  padding: 18px 32px;
+  font-family:Arial, Helvetica, sans-serif ;
+  height: fit-content;
+  background-color: #e50914;
+  color: #ffffff;
+  font-size: 1.4em;
+
+  text-transform: uppercase;
+  text-align: center;
+
+}
+.btn-started:hover{
+  background-color: #ff0b18;
+}
